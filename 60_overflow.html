@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+        }
+
+        div {
+            width: 150px;
+            height: 150px;
+            padding: 10px;
+            margin: 30px;
+            border-color: gray;
+            border-style: dotted;
+        }
+
+        .visible {
+            overflow: visible;
+        }
+
+        .hidden {
+            overflow: hidden;
+        }
+
+        .scroll {
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+
+        .auto {
+            overflow: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="visible">
+        <h3>visible</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero provident dolorum earum vero sunt repudiandae totam dolor reiciendis consequatur exercitationem in iusto consectetur impedit, alias adipisci nesciunt quos corrupti enim!
+    </div>
+    <div class="hidden">
+        <h3>hidden</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero provident dolorum earum vero sunt repudiandae totam dolor reiciendis consequatur exercitationem in iusto consectetur impedit, alias adipisci nesciunt quos corrupti enim!
+    </div>
+    <div class="scroll">
+        <h3>scroll</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero provident dolorum earum vero sunt repudiandae totam dolor reiciendis consequatur exercitationem in iusto consectetur impedit, alias adipisci nesciunt quos corrupti enim!
+    </div>
+    <div class="auto">
+        <h3>auto</h3>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero provident dolorum earum vero sunt repudiandae totam dolor reiciendis consequatur exercitationem in iusto consectetur impedit, alias adipisci nesciunt quos corrupti enim!
+    </div>
+</body>
+</html>
